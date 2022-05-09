@@ -1,0 +1,84 @@
+#contenitore_admin {
+    padding: 20px;
+    margin-top: 60px;
+    text-align: left;
+    float: left;
+}
+
+#contenitore_admin label {
+    padding-bottom: 8px;
+}
+
+.textform {
+    width: 160px;
+    box-sizing: border-box;
+    /* il valore di width fa riferimento al box nella sua interezza (comprendendo anche il padding e il bordo) */
+    font-size: 16px;
+    background-color: #212121;
+    color: #cccccc;
+    border: none;
+    border-bottom: darkgoldenrod 1px solid;
+    padding: 4px 6px;
+    margin: 8px 0;
+}
+
+textarea {
+    width: 450px;
+    height: 150px;
+    padding: 6px 8px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    /* non permette di cambiare le dimensioni dell'elemento textarea */
+}
+
+input[type="number"] {
+    background-color: #212121;
+    color: #cccccc;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-bottom: solid 1px darkgoldenrod;
+    border-radius: 3px;
+    padding: 6px;
+    margin: 4px;
+}
+
+#tleft {
+    float: left;
+    width: 90%;
+}
+
+
+#registrami {
+    margin: 20px 10px 10px 45%;
+}
+
+
+@media screen and (max-width: 700px) {
+    textarea {
+        width: 280px;
+        height: 150px;
+    }
+
+    #tleft {
+        margin: 2%;
+    }
+
+    .casttab {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    #i3 {
+        display: none;
+    }
+
+    #tleft {
+        width: 100%;
+    }
+}
