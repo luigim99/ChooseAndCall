@@ -1,0 +1,114 @@
+body {
+    background-color: #303030;
+    color: #cccccc;
+    margin: 0;
+    font-family: Arial, serif ;
+}
+
+.sezione_prodotti {
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.prodotti {
+    padding: 15px 25px 15px 30px;
+    text-align: center;
+    float: left;
+}
+
+.imm_prod_index{
+    width: 160px;
+    height: 260px;
+}
+
+.imm_prod_index:hover{
+    box-shadow: 3px 3px 10px 4px #737575;
+}
+
+.bottone{
+    font-size: 18px;
+    background-color: #212121;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 8px;
+}
+
+.bottone:hover{
+    background-color: #cccccc;
+    color: #212121;
+}
+
+#evidenza{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #424242;
+    padding: 5px;
+}
+
+.prodotti_evidenza{
+    display: inline;
+}
+
+.prodotti_evidenza a{
+    padding-left: 30px;
+}
+
+.imm_prod_ev{
+    width: 200px;
+    height: 320px;
+}
+
+.imm_prod_ev:hover{
+    box-shadow: 3px 3px 10px 4px #000000;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+@media screen and (max-width: 700px) {
+    .imm_prod_ev{
+        padding: 10px;
+        width: 280px;
+        height: 410px;
+    }
+
+    .sezione_prodotti{
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    .imm_prod_index{
+        width: 280px;
+        height: 410px;
+    }
+
+    .bottone{
+        font-size: 25px;
+    }
+}

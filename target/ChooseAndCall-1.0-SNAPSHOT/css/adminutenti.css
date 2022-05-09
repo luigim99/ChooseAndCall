@@ -1,0 +1,31 @@
+#contenitore_utenti {
+    margin-top: 20px;
+}
+
+#tutenti {
+    text-align: center;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 2%;
+    border: darkgoldenrod 1px solid;
+}
+
+.bordi{
+    border-right: darkgoldenrod 1px solid;
+}
+
+th.bordi{
+    border-bottom: darkgoldenrod 1px solid;
+}
+
+@media screen and (max-width: 950px) {
+    .indirizzo{display: none}
+    .data{display: none}
+}
+
+
+@media screen and (max-width: 800px) {
+    .sesso{display: none}
+    .nome{display: none}
+    .cognome{display: none}
+}
